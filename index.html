@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Pay</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Header Page  -->
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="container_search">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <button class="search-button">🔍</button>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="https://www.facebook.com/je.jane.12?mibextid=ZbWKwL">
+                    <div class="user">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NavBar Page  -->
+    <div class="container" style="display: flex; justify-content: center;">
+        <ul class="navBar">
+            <li><a href="">Home</a></li>
+            <li>
+                <a href="" class="menuHaveSub">
+                    <p>Brands</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="subMenu">
+                    <li><a href="">Apple</a></li>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Oppo</a></li>
+                    <li><a href="">Vivo</a></li>
+                    <li><a href="">Huawei</a></li>
+                    <li><a href="">Realme</a></li>
+                    <li><a href="">Google</a></li>
+                    <li><a href="">Honor</a></li>
+                    <li><a href="">Asus</a></li>
+                    <li><a href="">OnePlus</a></li>
+                    <li><a href="">Nokia</a></li>
+                    <li><a href="">Xiaomi</a></li>
+                </ul>
+            </li>
+            <li><a href="">Computer</a></li>
+            <li><a href="">SmartPhone</a></li>
+            <li><a href="">Tablet</a></li>
+            <li><a href="">Watch</a></li>
+            <li><a href="">Accessories</a></li>
+        </ul>
+    </div>
+
+    <!-- Slide baner Page -->
+    <div class="container-fluid" style="height: 400px; padding: 0;">
+        <div class="baner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://angkormeas.com/wp-content/uploads/2024/11/macbook-pro-m4.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://angkormeas.com/wp-content/uploads/2024/11/apple-watch-ultra.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://angkormeas.com/wp-content/uploads/2024/11/ipad-mini-7th.webp" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </div>
+
+    <!-- All Brands Page -->
+    <div class="container">
+        <ul class="brand">
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Apple-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Samsung-Logo0.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Oppo-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/11/Vivo-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Huawei-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2024/03/realme-logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Google-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/new-honor.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Asus-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/OnePlus-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Nokia-Logo.webp" alt="">
+            </li>
+            <li>
+                <img src="https://angkormeas.com/wp-content/uploads/2023/10/Xiaomi-Logo.webp" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <!-- Content Page  -->
+    <div class="container-fluid" style="background-color: #3498db; margin-block: 20px;">
+        <div class="container">
+            <div class="content">
+                <h1>
+                    Now we have 2 Official Facebook Page, please help like and follow our page to get latest update of
+                    product information.
+                </h1>
+                <h2>"Jane's Phone Shop in Cambodia"</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">FEATURED</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Apple Product -->
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">APPLE</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAMSUNG Product -->
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">SAMSUNG</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OPPO Product -->
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">OPPO</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Xiaomi Product -->
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">XIAOMI</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCESSORIES Product -->
+    <div class="container" style="margin-block: 40px;">
+        <div>
+            <div class="feature">
+                <p style="color:#3498db;">ACCESSORIES</p>
+                <p style="color:#b9d502;">PRODUCTS</p>
+            </div>
+            <p>Most popular products recommended to you</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-md-3" style="height: 300px;">
+                <div class="container-product">
+                    <div class="product">
+                        <div class="img">
+                            <img src="https://angkormeas.com/wp-content/uploads/2024/11/Tab-S10-Ultra_Global_v3-300x300.jpg?v=1730897162"
+                                alt="">
+                        </div>
+                        <div class="price">
+                            <p>USD 999 $</p>
+                        </div>
+                        <div class="title">
+                            <p>Samsung Galaxy Tab S10 Ultra</p>
+                        </div>
+                        <div class="addCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer page  -->
+    <div class="container-fluid" style="height: 240px; margin-top: 50px;">
+        <div class="footer">
+            <ul>
+                <li class="logo">
+                    <img src="logo.png" alt="">
+                </li>
+                <li class="contact">
+                    <h4>Contact Us</h4>
+                    <a href="">ផ្ទះលេខ 298Eo,មហាវិថី ម៉ៅសេទុង (St. 245) ខាងលិចចេនទ្បាផ្សាដើមគរ</a>
+                    <a href="">0987654321</a>
+                    <a href="">shopPay168@gmail.com</a>
+                </li>
+                <li class="flow">
+                    <h4>
+                        Flow Us
+                    </h4>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i><span>Facebook</span> </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i> <span>Instagram</span></a>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i> <span>Youtube</span>
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright © 2024 ShopPay. All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
